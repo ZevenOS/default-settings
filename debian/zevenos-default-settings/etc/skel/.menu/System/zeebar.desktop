@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Zeebar
+Comment=Eine Schnellstartleiste für ZevenOS
+Exec=/usr/bin/zeebar -pos bottom -bpress -above-desk -zoomf 2.0 -isize 48 -idist 4 -jumpf 1 -nanim 3
+Icon=/usr/share/pixmaps/zeebar.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;
+GenericName=

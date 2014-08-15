@@ -1,0 +1,13 @@
+Package: zevenos-default-settings
+Version: 12.10.zevenos7
+Architecture: all
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 1802
+Depends: gconf2 (>= 2.28.1-2), zevenos-artwork (>= 11.04.0~), ttf-droid, lightdm (>= 0.9.3-0ubuntu2), x11-common (>= 1:7.6+7ubuntu2), lightdm-gtk-greeter (>= 1.0.0-0ubuntu2)
+Recommends: xfce4-utils, gnome-menus
+Provides: lightdm-gtk-greeter-config
+Section: x11
+Priority: optional
+Homepage: http://www.zevenos.com
+Description: default settings for the ZevenOS desktop
+ This package contains the default settings used by ZevenOS.

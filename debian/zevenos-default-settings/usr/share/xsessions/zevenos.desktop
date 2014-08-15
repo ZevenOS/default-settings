@@ -1,0 +1,26 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ZevenOS Session
+Name[ca]=Sessió del ZevenOS
+Name[da]=ZevenOS-session
+Name[de]=ZevenOS Session
+Name[el]=Συνεδρία ZevenOS
+Name[fi]=ZevenOS-istunto
+Name[he]=הפעלה של זובונטו
+Name[hu]=ZevenOS munkamenet
+Name[sv]=ZevenOS-session
+Name[zh_CN]=ZevenOS 会话
+Comment=Use this session to boot into ZevenOS
+Comment[ca]=Utilitzeu aquesta sessió per arrencar el ZevenOS
+Comment[da]=Brug denne session til at starte op i ZevenOS
+Comment[de]=Benutzen Sie diese Session, um ZevenOS zu starten
+Comment[el]=Χρησιμοποιήστε  αυτή την συνεδρία για να εκκινήσετε το ZevenOS
+Comment[fi]=Käytä tätä istuntoa käynnistääksesi ZevenOSn
+Comment[he]=ניתן להשתמש בהפעלה זו כדי להתחיל את זובונטו
+Comment[hu]=Használja ezt a munkamenetet az ZevenOS indításához
+Comment[sv]=Använd denna session för att starta upp ZevenOS
+Comment[zh_CN]=使用此会话启动 ZevenOS
+Exec=/usr/share/zevenos/session.sh
+Icon=
+Type=Application
+Name=zevenos

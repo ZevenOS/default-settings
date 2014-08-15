@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=MAGI
+Comment=MAGI 1.2
+Exec=/usr/bin/Magi.gambas
+Icon=/usr/share/pixmaps/magi.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

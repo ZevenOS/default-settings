@@ -1,0 +1,26 @@
+;; Sawfish user customization -- do not edit by hand!
+;; Use the configurator instead.
+;; sawfish version 1.8.2, written Mon Nov  7 20:53:40 2011
+
+(custom-set-typed-variable (quote default-font) (quote ("Pango" . "Droid Sans 10")) (quote font))
+(custom-set-typed-variable (quote default-frame-style) (quote Haiku) (quote frame-style))
+(custom-set-typed-variable (quote match-window-profile) (quote ((((WM_NAME . "^deskbarv2$")) (cycle-skip . #t) (window-list-skip . #t) (task-list-skip . #t) (skip-tasklist . #t)) (((WM_NAME . "^panel$")) (frame-type . none) (cycle-skip . #t) (window-list-skip . #t) (task-list-skip . #t)) (((WM_NAME . "^xfce4-panel$")) (frame-type . none)) (((WM_NAME . "^Docky$")) (frame-type . none)) (((WM_NAME . "^W")) (place-mode . centered)) (((WM_CLASS . "^Gdebi-gtk/gdebi-gtk$")) (place-mode . centered)) (((WM_CLASS . "^Synaptic/synaptic$")) (place-mode . centered)) (((WM_NAME . "^stalonetray$")) (sticky . #t) (window-list-skip . #t) (task-list-skip . #t) (skip-tasklist . #t)))) (quote match-window) (quote sawfish.wm.ext.match-window))
+(custom-set-keymap (quote global-keymap) (quote (keymap (tile-windows . "M-dead_acute") (cycle-windows . "W-TAB") (restart . "M-R") (send-to-next-workspace . "M-S-Right") (send-to-previous-workspace . "M-S-Left") ((run-shell-command "sleep 2;xset dpms force off") . "C-F7") ((run-shell-command "/usr/bin/volume.sh up") . "XF86AudioRaiseVolume") ((run-shell-command "/usr/bin/volume.sh down") . "XF86AudioLowerVolume") ((run-shell-command "/usr/bin/volume.sh mute") . "XF86AudioMute") ((activate-workspace 1) . "M-F1") ((activate-workspace 2) . "M-F2") ((activate-workspace 3) . "M-F3") ((activate-workspace 4) . "M-F4") ((activate-workspace 5) . "M-F5") ((activate-workspace 6) . "M-F6") ((command-sequence (quote ((activate-workspace 4) (run-shell-command "xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path --set /usr/share/xfce4/backdrops/work.jpg") (run-shell-command "claws-mail") (run-shell-command "firefox \"www.zevenos.com\"") (run-shell-command "magi-kit.py music")))) . "C-odiaeresis") ((run-shell-command "xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path --set /usr/share/xfce4/backdrops/home.jpg") . "Super-h") ((run-shell-command "xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path --set /usr/share/xfce4/backdrops/work.jpg") . "Super-w") ((run-shell-command "scrot") . "Print") ((run-shell-command "xkill") . "C-ESC") ((run-shell-command "xfce4-taskmanager") . "M-C-DEL") ((run-shell-command "xfrun4") . "Super-SPC") ((run-shell-command "xfrun4") . "C-F2") ((run-shell-command "/usr/bin/magi-kit.py konsole") . "M-C-t") ((run-shell-command "thunar ~") . "M-C-d") (next-workspace . "M-C-Right") (previous-workspace . "M-C-Left"))))
+(custom-set-typed-variable (quote viewport-dimensions) (quote (1 . 1)) (quote (pair (number 1) (number 1))))
+(custom-set-typed-variable (quote dragdome:show-unfocused-buttons) (quote t) (quote boolean))
+(custom-set-typed-variable (quote dragdome:full-title-width) (quote ()) (quote boolean))
+(custom-set-typed-variable (quote dragdome:font) (quote ("Pango" . "Sans 11")) (quote font))
+(custom-set-typed-variable (quote dragdome:unfocused-title-colour) (quote "#b6a7b6a7b6a7") (quote color))
+(custom-set-typed-variable (quote workspace-names) (quote ("1" "2" "3" "4" "5" "6")) (quote (list string "Namen der Arbeitsflächen")))
+(custom-set-typed-variable (quote place-window-mode) (quote none) (quote symbol))
+(custom-set-keymap (quote title-keymap) (quote (keymap (change-title-offset-interactively . "Button2-Move") (move-window-interactively . "Button1-Move") (toggle-window-iconified . "Button1-Off2") (resize-window-interactively . "Button3-Move") (raise-lower-window . "Button3-Off"))))
+(custom-set-keymap (quote window-keymap) (quote (keymap (raise-and-pass-through-click . "Button1-Click") (delete-window . "M-q") (move-window-interactively . "W-Button1-Move") (popup-window-menu . "W-Button2-Click") (raise-lower-window . "W-Button3-Click") (lower-window . "W-Down") (raise-window . "W-Up"))))
+(custom-set-typed-variable (quote move-show-position) (quote ()) (quote boolean))
+(custom-set-typed-variable (quote resize-show-dimensions) (quote ()) (quote boolean))
+(custom-set-typed-variable (quote tooltips-enabled) (quote ()) (quote boolean) (quote sawfish.wm.ext.tooltips))
+(custom-set-typed-variable (quote place-transient-mode) (quote none) (quote symbol))
+(custom-set-typed-variable (quote dragdome:bar-placement) (quote ((close . 1) (title . 2) (maximize . 4))) (quote (alist ((symbol close iconify maximize menu shade sticky title) "Item") (number "Order"))))
+(custom-set-typed-variable (quote dragdome:focused-title-colour) (quote "#d59fd9b93642") (quote color))
+(custom-set-typed-variable (quote Derivative:button-theme) (quote default) (quote (choice (default "Default") (limit "Limit") (platinum "Mac OS 8/9") (macos-x "Mac OS X") (windows "MS Windows") (next "NeXTSTEP"))))
+(custom-set-typed-variable (quote Crux:show-window-icons) (quote t) (quote boolean))
+(custom-set-typed-variable (quote xterm-program) (quote "xfce4-terminal") (quote string))

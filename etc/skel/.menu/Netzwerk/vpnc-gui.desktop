@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=VPNC-GUI
+Comment=A gui for vpnc
+Exec=/usr/bin/VPNC-gui/vpnc-gui.gambas
+Icon=/usr/share/pixmaps/vpnc-gui.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Settings;

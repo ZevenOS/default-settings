@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=People
+Comment=simple contact editor
+Exec=people
+Icon=/usr/bin/People/gaim_online.svg
+Terminal=false
+Type=Application
+Categories=Office;Application;
+GenericName=People
+MimeType=application/x-person;

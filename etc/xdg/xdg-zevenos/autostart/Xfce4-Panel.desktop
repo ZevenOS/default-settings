@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=2.0
+Encoding=UTF-8
+Name=Xfce4-Panel
+Comment=Xfce4-Panel - A Taskbar
+Exec=xfce4-panel
+Icon=xfce4-panel
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;
+Hidden=true

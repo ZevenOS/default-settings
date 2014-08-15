@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Hardware Drivers
+Comment=Configure third-party and proprietary drivers
+Icon=jockey
+Exec=/usr/bin/jockey-gtk
+Terminal=false
+Type=Application
+Categories=System;Settings;GTK;HardwareSettings;
+NotShowIn=KDE;
+X-Ubuntu-Gettext-Domain=jockey

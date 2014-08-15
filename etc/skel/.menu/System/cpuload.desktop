@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Pulse
+Name[de]=Pulse
+Comment=Pulse CPU Load
+Exec=/usr/bin/CPULoad.gambas
+Icon=/usr/share/pixmaps/cpuload.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

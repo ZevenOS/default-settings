@@ -1,0 +1,11 @@
+An implementation of Microsoft Windows XP's new look as seen
+on screenshots of builds 2454 and 2458.
+
+Implemented by Stefan Zeiger <szeiger@szeiger.de>.
+Version 0.2 (2001-04-21).
+
+Changes since release 0.1:
+
+- Configurable title bar shadows
+
+- Configurable title bar height

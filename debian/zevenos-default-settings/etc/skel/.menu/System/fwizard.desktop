@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Fwizard
+Name[de]=Erste Schritte
+Name[us]=First Configuration Wizard
+Name[en]=First Configuration Wizard
+Comment=First Configuration Wizard
+Exec=/usr/bin/Fwizard.gambas
+Icon=/usr/share/pixmaps/fwizard.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

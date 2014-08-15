@@ -1,0 +1,21 @@
+(require 'sawfish-defaults) 
+;;(system "/home/leszek/Projekt/Deskbar/Deskbar/Deskbar.gambas &")
+;;(system "xfce4-panel &")
+;;(system "xfdesktop &")
+;;(system "nm-applet &")
+;;(system "gnome-power-manager &")
+;;(system "update-notifier &")
+;;(system "cpufreq-gui &")
+;;(system "~/.autostart &")
+
+(require 'rep.io.timers)
+(add-hook  'enter-workspace-hook (lambda () (let ((win (display-message (nth current-workspace workspace-names))))
+(make-timer (lambda () (display-message nil)) 1))))
+
+(require 'smart-tile)
+(bind-keys global-keymap "M-dead_acute" 'tile-windows)
+
+(require 'tiling-functions)
+(bind-keys global-keymap "M-ssharp" evm-tile-windows-horizontally)
+
+(require 'Title-offset)

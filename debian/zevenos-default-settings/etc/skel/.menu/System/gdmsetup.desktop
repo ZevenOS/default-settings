@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Login Screen
+Comment=Configure login screen behavior
+Exec=gdmsetup
+Icon=gdm-setup
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Settings;System;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gdm
+X-GNOME-Bugzilla-Component=general
+X-Ubuntu-Gettext-Domain=gdm

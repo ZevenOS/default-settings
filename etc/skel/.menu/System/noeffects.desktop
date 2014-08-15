@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Effects
+Name[en]=Deactivate Effects
+Name[de]=Deaktiviere Effekte
+Comment=Composoting Effects for your Desktop
+Exec=/usr/bin/noeffects.sh
+Icon=/usr/share/pixmaps/apple-red.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

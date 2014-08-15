@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><magi-kit>
+  <Internet Browser="firefox" IM="pidgin" IRC="xchat" Mail="claws-mail" Nfs="thunar" Rss="liferea" Skype="skype"/>
+  <Office Calculator="gcalctool" Calendar="orage" ImageEditor="gimp" Notes="xpad" PDF="evince" Presentation="abiword" Spreadsheet="gnumeric" Word="abiword"/>
+  <Multimedia AudioEditor="audacity" Burn="brasero" Music="deadbeef" Pictures="shotwell" Rip="goobox" Video="gnome-mplayer" VideoEditor="openshot"/>
+  <Development Editor="leafpad" IDE="geany"/>
+  <System Archiver="file-roller" FileManager="thunar" Install="gksu ubiquity" Konsole="xfce4-terminal" Package="gksu synaptic" Screenshot="scrot" Search="catfish"/>
+  <Settings Appearance="xfce4-appearance-settings" Desktop="xfdesktop-settings" Display="arandr" Keyboard="xfce4-keyboard-settings" Language="gksu gnome-language-selector" Mouse="xfce4-mouse-settings" Ndis="gksu /usr/sbin/ndisgtk" Network="nm-connection-editor" Panel="xfce4-panel &amp;&amp; xfce4-panel -c" Power="xfce4-power-manager-settings" Printer="gksu system-config-printer" Share="shares-admin" Sound="pavucontrol" Sources="gksu software-properties-gtk" Time="time-admin" Update="update-manager" User="users-admin" WM="sawfish-config" Workspace="sawfish-config --group=workspace"/>
+</magi-kit>

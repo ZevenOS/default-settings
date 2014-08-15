@@ -1,0 +1,14 @@
+DragDome is a customisable tab-styled window theme based on
+tigert's excellent TigDome.  It includes support for 
+customisable colours, button placement and draggable 
+titlebars (which also requires the title-offset.jl module).
+
+title-offset.jl is available at
+<http://www.eng.uwaterloo.ca/students/jdpeters/>.
+This version of DragDome requires at least version 0.2.
+
+TigDome was SmallDome with yet another titlebar by tigert.
+Smalldome was Moondome with a smaller titlebar by Ville Pätsi.
+Moondome was a hack of the BeOS theme created by Ken Lynch. 
+
+- Jason Peters <jasonpeters@email.com>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Effects
+Name[en]=Activate Effects
+Name[de]=Aktiviere Effekte
+Comment=Composoting Effects for your Desktop
+Exec=/usr/bin/effects.sh
+Icon=/usr/share/pixmaps/apple-green.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

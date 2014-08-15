@@ -1,0 +1,17 @@
+Source: zevenos-default-settings
+Section: x11
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 7.0.50~), intltool
+Standards-Version: 3.9.2
+Homepage: http://www.zevenos.com
+
+Package: zevenos-default-settings
+Architecture: all
+Depends: ${misc:Depends}, zevenos-artwork (>= 11.04.0~), ttf-droid,
+ lightdm (>= 0.9.3-0ubuntu2), x11-common (>= 1:7.6+7ubuntu2),
+ lightdm-gtk-greeter (>= 1.0.0-0ubuntu2)
+Recommends: xfce4-utils, gnome-menus
+Provides: lightdm-gtk-greeter-config
+Description: default settings for the ZevenOS desktop
+ This package contains the default settings used by ZevenOS.

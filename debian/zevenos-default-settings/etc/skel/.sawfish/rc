@@ -1,0 +1,4 @@
+(require 'rep.io.timers)
+(add-hook  'enter-workspace-hook (lambda () (let ((win (display-message (nth current-workspace workspace-names))))
+(make-timer (lambda () (display-message nil)) 1))))
+

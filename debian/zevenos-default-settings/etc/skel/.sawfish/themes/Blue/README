@@ -1,0 +1,31 @@
+This theme brings Microsoft Windows XP's "Watercolor" look
+(as seen in screenshots of build 2410) to Sawfish.
+
+It implements the following features and configuration options:
+
+- Different images for maximize and restore buttons.
+
+- Optional window icon in upper left corner of non-transient windows.
+
+- The close, iconify and maximize/restore buttons are removable.
+
+- The iconify and maximize/restore buttons of transient windows
+  can be hidden with configuration options.
+
+- Text colors can be customized.
+
+- Optional resize triangle in the lower right corner of a window's
+  client area.
+
+- Customizable Y offset for title bar text.
+
+Implemented by Stefan Zeiger <szeiger@szeiger.de>.
+Version 0.6 (2001-03-27).
+
+Changes from previous version:
+
+- Rewrote and cleaned up the Lisp code. The new theme.jl file
+  is less than half as big as the previous version and should
+  be a lot easier to maintain.
+
+- The new version is probably quite a bit faster as well.

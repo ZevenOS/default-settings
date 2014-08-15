@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Version=2.0
+Encoding=UTF-8
+Name=DeskbarV2
+Comment=Deskbar- BeOS Clone
+Exec=/usr/bin/deskbarv2
+Icon=/usr/share/pixmaps/zevenos-menu.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

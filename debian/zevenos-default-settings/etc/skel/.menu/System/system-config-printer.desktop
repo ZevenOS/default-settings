@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Printing
+Comment=Configure printers
+Exec=system-config-printer
+Terminal=false
+Type=Application
+Icon=printer
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=system-config-printer
+X-Desktop-File-Install-Version=0.15
+Categories=GTK;Printing;HardwareSettings;Settings;System;

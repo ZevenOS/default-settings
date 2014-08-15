@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Gamer-Bar
+Comment=A smart QuickLauncher for Games
+Exec=/usr/bin/Gamer-Bar.gambas
+Icon=/usr/share/pixmaps/gamer-bar.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Game;

@@ -1,0 +1,3 @@
+QNX Photon GUI から持ってきました。
+色合いの互換性をとるために gtkrc ファイルを同梱しています。
+作者は Rowan Kerr <rowan@stasis.org> March, 2000

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=MAGI 2
+Comment=Cyberghost is the Codename for Magi 2.0 , a small little Starter and Installer for Applications
+Exec=/usr/bin/Cyberghost.gambas
+Icon=/usr/share/pixmaps/cyberghost.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;

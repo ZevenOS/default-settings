@@ -1,0 +1,65 @@
+# colors to imitate the QNX Photon MicroGUI
+# by rowan@stasis.org
+#
+
+# old list background  : e8e6da
+# old highlight colour : 7e8e9e
+# background: #d9d9d9
+# (adjusted to remove the pinkish look)
+
+style "default"
+{
+  fg[NORMAL]      = "#000000"
+  fg[PRELIGHT]    = "#000000"
+  fg[ACTIVE]      = "#000000"
+  fg[SELECTED]    = "#ffffff"
+  fg[INSENSITIVE] = "#6f6f6f"
+  bg[NORMAL]      = "#d8d8d8"
+  bg[PRELIGHT]    = "#d8d8d8"
+  bg[ACTIVE]      = "#b8b8b8"
+  bg[SELECTED]    = "#8a9dbe"
+  bg[INSENSITIVE] = "#d8d8d8"
+  base[NORMAL]    = "#ffffff"
+  base[INSENSITIVE] = "#d8d8d8"
+}
+class "GtkWidget" style "default"
+
+style "list"
+{
+  bg[PRELIGHT] = "#eeeeee"
+  fg[PRELIGHT] = "#ffffff"
+  base[NORMAL] = "#eeeeee"
+}
+class "GtkList"  style "list"
+class "GtkTree"  style "list"
+class "GtkCList" style "list"
+class "GtkCTree" style "list"
+
+style "progress"
+{
+  bg[NORMAL] = "#ffffff"
+  fg[NORMAL] = "#8a9dbe"
+  fg[PRELIGHT] = "#8a9dbe"
+  fg[ACTIVE] = "#8a9dbe"
+  fg[SELECTED] = "#8a9dbe"
+  fg[INSENSITIVE] = "#d9d9d9"
+}
+class "GtkProgress" style "progress"
+class "GtkStatusbar" style "progress"
+
+style "menu"
+{
+  bg[PRELIGHT]    = "#8a9dbe"
+  bg[ACTIVE]      = "#8a9dbe"
+  bg[SELECTED]    = "#8a9dbe"
+}
+class "GtkMenu"     style "menu"
+class "GtkMenuItem" style "menu"
+
+style "tooltips"
+{
+  bg[NORMAL] = "#ffffff"
+  fg[NORMAL] = "#000000"
+}
+widget "gtk-tooltips*" style "tooltips"
+
